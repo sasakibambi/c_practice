@@ -2,7 +2,6 @@
 
 int main(void)
 {
-  printf("Hello\n");
-  printf("world\n");
+  printf("%d / %d = %d ... %d\n", 40, 13, 40 / 13, 40 % 13);
   return 0; /*ここもコメント*/
 }
